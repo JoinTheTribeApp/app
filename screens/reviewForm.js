@@ -10,6 +10,10 @@ const reviewSchema = yup.object({
     .string()
     .required()
     .min(4),
+  venture: yup
+    .string()
+    .required()
+    .min(4),
   body: yup
     .string()
     .required()
@@ -28,7 +32,7 @@ export default function ReviewForm({ addReview }) {
   return (
     <View style={globalStyles.container}>
       <Formik
-        initialValues={{ title: "", body: "", rating: "" }}
+        initialValues={{ title: "", venture: "", body: "", rating: "" }}
         validationSchema={reviewSchema}
         onSubmit={(values, actions) => {
           actions.resetForm();
@@ -50,16 +54,14 @@ export default function ReviewForm({ addReview }) {
             </Text>
 
             <TextInput
-              multiline
-              minHeight={100}
               style={globalStyles.input}
-              placeholder="Notes"
-              onChangeText={props.handleChange("body")}
-              value={props.values.body}
-              onBlur={props.handleBlur("body")}
+              placeholder="Venture Name"
+              onChangeText={props.handleChange("venture")}
+              value={props.values.venture}
+              onBlur={props.handleBlur("venture")}
             />
             <Text style={globalStyles.errorText}>
-              {props.touched.body && props.errors.body}
+              {props.touched.venture && props.errors.venture}
             </Text>
 
             <TextInput
@@ -72,6 +74,19 @@ export default function ReviewForm({ addReview }) {
             />
             <Text style={globalStyles.errorText}>
               {props.touched.rating && props.errors.rating}
+            </Text>
+
+            <TextInput
+              multiline
+              minHeight={100}
+              style={globalStyles.input}
+              placeholder="Notes"
+              onChangeText={props.handleChange("body")}
+              value={props.values.body}
+              onBlur={props.handleBlur("body")}
+            />
+            <Text style={globalStyles.errorText}>
+              {props.touched.body && props.errors.body}
             </Text>
 
             <FlatButton text="submit" onPress={props.handleSubmit} />
