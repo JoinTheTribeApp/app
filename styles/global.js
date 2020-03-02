@@ -25,10 +25,17 @@ export const globalStyles = StyleSheet.create({
 
 export const images = {
   ratings: {
-    "1": require("../assets/rating-1.png"),
-    "2": require("../assets/rating-2.png"),
-    "3": require("../assets/rating-3.png"),
-    "4": require("../assets/rating-4.png"),
-    "5": require("../assets/rating-5.png")
+    "1": require("../assets/star.png"),
+    "2": require("../assets/star.png"),
+    "3": require("../assets/star.png"),
+    "4": require("../assets/star.png"),
+    "5": require("../assets/star.png")
+  },
+  avatars: {
+    "1": require("../assets/founders/1.jpg"),
+    "2": require("../assets/founders/2.jpg"),
+    "3": require("../assets/founders/3.jpg"),
+    "4": require("../assets/founders/4.jpg"),
+    "5": require("../assets/founders/5.jpg")
   }
 };

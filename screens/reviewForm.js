@@ -19,7 +19,7 @@ const reviewSchema = yup.object({
     .required()
     .min(1)
     .max(1)
-    .test("is-num-1-5", "Rating must be a number 1 - 5", val => {
+    .test("is-num-1-5", "Must be a number 1 - 5", val => {
       return parseInt(val) < 6 && parseInt(val) > 0;
     })
 });

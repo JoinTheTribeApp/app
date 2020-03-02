@@ -1,9 +1,9 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 51844,
-  "expoServerNgrokUrl": "https://jk-me3.anonymous.ft-app.exp.direct",
-  "packagerNgrokUrl": "https://packager.jk-me3.anonymous.ft-app.exp.direct",
-  "ngrokPid": 51877
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null
 }

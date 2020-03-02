@@ -9,7 +9,7 @@
     "orientation": "portrait",
     "icon": "./assets/Founder-Tribe-Icon-500-compress.png",
     "splash": {
-      "image": "./assets/Founder-Tribe-Icon-500-compress.png",
+      "image": "./assets/founder-tribe-splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#f5633b"
     },
