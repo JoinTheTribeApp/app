@@ -1,1 +1,3 @@
 # app
+
+- expo start
