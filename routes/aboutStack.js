@@ -22,7 +22,7 @@ const AboutStack = createStackNavigator(screens, {
   defaultNavigationOptions: {
     headerTintColor: "white",
     headerStyle: {
-      backgroundColor: "#4285F4",
+      backgroundColor: "#f5633b", // Founder Tribe orange
       height: 150
     }
   }
