@@ -75,5 +75,10 @@ export const images = {
     "41": require("../assets/founders/41.jpg"),
     "42": require("../assets/founders/42.jpg"),
     "43": require("../assets/founders/43.jpg")
+  },
+  avatarsTeachers: {
+    "1": require("../assets/teachers/1.png"),
+    "2": require("../assets/teachers/2.jpg"),
+    "3": require("../assets/teachers/3.jpg")
   }
 };

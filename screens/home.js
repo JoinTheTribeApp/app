@@ -336,7 +336,7 @@ export default function Home({ navigation }) {
 
   return (
     <View style={globalStyles.container}>
-      <Modal visible={modelOpen} animationType="slide">
+      {/* <Modal visible={modelOpen} animationType="slide">
         <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
           <View style={styles.modalContent}>
             <MaterialIcons
@@ -355,7 +355,7 @@ export default function Home({ navigation }) {
         size={24}
         style={styles.modalToggle}
         onPress={() => setModalOpen(true)}
-      />
+      /> */}
 
       <FlatList
         data={reviews}

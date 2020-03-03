@@ -23,7 +23,7 @@ const reviewSchema = yup.object({
     .required()
     .min(1)
     .max(1)
-    .test("is-num-1-5", "Must be a number 1 - 5", val => {
+    .test("is-num-1-10", "Must be a number 1 - 10", val => {
       return parseInt(val) < 6 && parseInt(val) > 0;
     })
 });
@@ -44,7 +44,7 @@ export default function ReviewForm({ addReview }) {
           <View>
             <TextInput
               style={globalStyles.input}
-              placeholder="Founder Name"
+              placeholder="Teacher Name"
               onChangeText={props.handleChange("title")}
               value={props.values.title}
               onBlur={props.handleBlur("title")}
@@ -55,7 +55,7 @@ export default function ReviewForm({ addReview }) {
 
             <TextInput
               style={globalStyles.input}
-              placeholder="Venture Name"
+              placeholder="Workshop Name"
               onChangeText={props.handleChange("venture")}
               value={props.values.venture}
               onBlur={props.handleBlur("venture")}
@@ -66,7 +66,7 @@ export default function ReviewForm({ addReview }) {
 
             <TextInput
               style={globalStyles.input}
-              placeholder="Member Type (1-5)"
+              placeholder="Workshop NPS Score (1-10)"
               onChangeText={props.handleChange("rating")}
               value={props.values.rating}
               keyboardType="numeric"

@@ -1,17 +1,15 @@
 import { createStackNavigator } from "react-navigation-stack";
-import { createAppContainer } from "react-navigation";
-import Home from "../screens/home";
-import TodoDetails from "../screens/todoDetails";
+import Feedback from "../screens/feedback";
 import TeacherDetails from "../screens/teacherDetails";
 import Header from "../shared/header";
 import React from "react";
 
 const screens = {
-  Home: {
-    screen: Home,
+  Feedback: {
+    screen: Feedback,
     navigationOptions: ({ navigation }) => {
       return {
-        headerTitle: () => <Header navigation={navigation} title="Home" />,
+        headerTitle: () => <Header navigation={navigation} title="Feedback" />,
         headerTitleContainerStyle: {
           left: 0,
           right: 0
@@ -19,22 +17,22 @@ const screens = {
       };
     }
   },
-  TodoDetails: {
-    screen: TodoDetails,
+  TeacherDetails: {
+    screen: TeacherDetails,
     navigationOptions: {
-      title: "Founder Profile"
+      title: "Teacher Profile"
     }
   }
 };
 
-const HomeStack = createStackNavigator(screens, {
+const FeedbackStack = createStackNavigator(screens, {
   defaultNavigationOptions: {
     headerTintColor: "white",
     headerStyle: {
-      backgroundColor: "#f5633b",
+      backgroundColor: "#f5633b", // Founder Tribe orange
       height: 150
     }
   }
 });
 
-export default HomeStack;
+export default FeedbackStack;

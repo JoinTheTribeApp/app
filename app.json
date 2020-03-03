@@ -19,6 +19,8 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "",
+    "githubUrl": "https://github.com/foundertribe/app"
   }
 }
