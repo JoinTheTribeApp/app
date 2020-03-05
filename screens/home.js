@@ -24,306 +24,346 @@ export default function Home({ navigation }) {
   const [reviews, setReviews] = useState([
     {
       title: "Abi Owolabi",
-      avatar: "../assets/star.png",
+      linkedin: "https://www.linkedin.com/in/abi-owolabi-74a91b8a/",
       venture: "Blacwxlf",
+      website: "https://www.blacwxlf.com/",
       rating: 1,
       body: "None",
       key: "1"
     },
     {
-      title: "Adil Dewan",
-      venture: "Nuts of Argania",
+      title: "Alex McKeeman",
+      linkedin: "",
+      venture: "Filt",
       rating: 1,
       body: "None",
       key: "2"
     },
     {
-      title: "Alex McKeeman",
-      venture: "Filt",
-      rating: 1,
+      title: "Alicia Norton",
+      linkedin: "",
+      venture: "Treacle Health",
+      rating: 4,
       body: "None",
       key: "3"
     },
     {
-      title: "Alicia Norton",
-      venture: "Treacle Health",
+      title: "Ariel Kendall",
+      linkedin: "",
+      venture: "Woke Comics",
       rating: 4,
       body: "None",
       key: "4"
     },
     {
-      title: "Ariel Kendall",
-      venture: "Woke Comics",
+      title: "Ash Staines",
+      linkedin: "",
+      venture: "DoubleTapp",
       rating: 4,
       body: "None",
       key: "5"
     },
     {
-      title: "Ash Staines",
-      venture: "DoubleTapp",
+      title: "Ben Curtis",
+      linkedin: "",
+      venture: "Aviation Experience Days",
       rating: 4,
       body: "None",
       key: "6"
     },
     {
-      title: "Ben Curtis",
-      venture: "Aviation Experience Days",
+      title: "Claud Williams",
+      linkedin: "",
+      venture: "Dream Nation",
       rating: 4,
       body: "None",
       key: "7"
     },
     {
-      title: "Claud Williams",
-      venture: "Dream Nation",
+      title: "Claudine Adeyemi",
+      linkedin: "",
+      venture: "Career Ear",
       rating: 4,
       body: "None",
       key: "8"
     },
     {
-      title: "Claudine Adeyemi",
-      venture: "Career Ear",
+      title: "Fleur Colvile",
+      linkedin: "",
+      venture: "Mix & Rise",
       rating: 4,
       body: "None",
       key: "9"
     },
     {
-      title: "Fleur Colvile",
-      venture: "Mix & Rise",
+      title: "Guy Wilkinson",
+      linkedin: "",
+      venture: "Carbon Emissions Reduction",
       rating: 4,
       body: "None",
       key: "10"
     },
     {
-      title: "Guy Wilkinson",
-      venture: "Carbon Emissions Reduction",
+      title: "Hasan Sukkar",
+      linkedin: "",
+      venture: "Dogger",
       rating: 4,
       body: "None",
       key: "11"
     },
     {
-      title: "Hasan Sukkar",
-      venture: "Dogger",
+      title: "Hugo Besley",
+      linkedin: "",
+      venture: "Studio Systems",
       rating: 4,
       body: "None",
       key: "12"
     },
     {
-      title: "Hugo Besley",
-      venture: "Studio Systems",
+      title: "Ina Bierylo",
+      linkedin: "",
+      venture: "",
       rating: 4,
       body: "None",
       key: "13"
     },
     {
-      title: "Ina Bierylo",
-      venture: "",
+      title: "Ish Wijewardana",
+      linkedin: "",
+      venture: "Strivy",
       rating: 4,
       body: "None",
       key: "14"
     },
     {
-      title: "Ish Wijewardana",
-      venture: "Strivy",
+      title: "James Nightingall",
+      linkedin: "",
+      venture: "HomeFinder",
       rating: 4,
       body: "None",
       key: "15"
     },
     {
-      title: "James Nightingall",
-      venture: "HomeFinder",
+      title: "James Stirrat",
+      linkedin: "",
+      venture: "CircleOS",
       rating: 4,
       body: "None",
       key: "16"
     },
     {
-      title: "James Stirrat",
-      venture: "CircleOS",
+      title: "Jaron Soh",
+      linkedin: "",
+      venture: "Traktion",
       rating: 4,
       body: "None",
       key: "17"
     },
     {
-      title: "Jaron Soh",
-      venture: "Traktion",
+      title: "Joel Gujral",
+      linkedin: "",
+      venture: "Firedrop",
       rating: 4,
       body: "None",
       key: "18"
     },
     {
-      title: "Joel Gujral",
-      venture: "Firedrop",
+      title: "Karen Meynard",
+      linkedin: "",
+      venture: "ACT!VATE",
       rating: 4,
       body: "None",
       key: "19"
     },
     {
-      title: "Karen Meynard",
-      venture: "ACT!VATE",
+      title: "Kat Merkalenko",
+      linkedin: "",
+      venture: "Gifter",
       rating: 4,
       body: "None",
       key: "20"
     },
     {
-      title: "Kat Merkalenko",
-      venture: "Gifter",
+      title: "Kate Nightingale",
+      linkedin: "",
+      venture: "Pips",
       rating: 4,
       body: "None",
       key: "21"
     },
     {
-      title: "Kate Nightingale",
-      venture: "Pips",
+      title: "Kiran Kotecha",
+      linkedin: "",
+      venture: "LOKAL",
       rating: 4,
       body: "None",
       key: "22"
     },
     {
-      title: "Kiran Kotecha",
-      venture: "LOKAL",
+      title: "Lucia Banjo",
+      linkedin: "",
+      venture: "Embrace",
       rating: 4,
       body: "None",
       key: "23"
     },
     {
-      title: "Lucia Banjo",
-      venture: "Embrace",
+      title: "Luke Billings",
+      linkedin: "",
+      venture: "Kanbanchi Job Tracker",
       rating: 4,
       body: "None",
       key: "24"
     },
     {
-      title: "Luke Billings",
-      venture: "Kanbanchi Job Tracker",
+      title: "Matthew Holding",
+      linkedin: "",
+      venture: "",
       rating: 4,
       body: "None",
       key: "25"
     },
     {
-      title: "Matthew Holding",
+      title: "Max Hampshire",
+      linkedin: "",
       venture: "",
       rating: 4,
       body: "None",
       key: "26"
     },
     {
-      title: "Max Hampshire",
-      venture: "",
-      rating: 4,
+      title: "Maxxwell Firth",
+      linkedin: "",
+      venture: "Founder Tribe",
+      rating: 5,
       body: "None",
       key: "27"
     },
     {
-      title: "Maxxwell Firth",
-      venture: "Founder Tribe",
+      title: "Melissa Yacoub",
+      linkedin: "",
+      venture: "Discover Consultancy",
       rating: 5,
       body: "None",
       key: "28"
     },
     {
-      title: "Melissa Yacoub",
-      venture: "Discover Consultancy",
+      title: "Natasha Eeles",
+      linkedin: "",
+      venture: "Bold Voices",
       rating: 5,
       body: "None",
       key: "29"
     },
     {
-      title: "Natasha Eeles",
-      venture: "Bold Voices",
+      title: "Nathalie Stark",
+      linkedin: "",
+      venture: "",
       rating: 5,
       body: "None",
       key: "30"
     },
     {
-      title: "Nathalie Stark",
-      venture: "",
+      title: "Nish Modasia",
+      linkedin: "",
+      venture: "EN ROOT",
       rating: 5,
       body: "None",
       key: "31"
     },
     {
-      title: "Nish Modasia",
-      venture: "EN ROOT",
+      title: "Patrick Dobinson",
+      linkedin: "",
+      venture: "",
       rating: 5,
       body: "None",
       key: "32"
     },
     {
-      title: "Patrick Dobinson",
-      venture: "",
+      title: "Pavel Kroupa",
+      linkedin: "",
+      venture: "Carbon Accounting System",
       rating: 5,
       body: "None",
       key: "33"
     },
     {
-      title: "Pavel Kroupa",
-      venture: "Carbon Accounting System",
+      title: "Phoebe Jones",
+      linkedin: "",
+      venture: "RecoverMe",
       rating: 5,
       body: "None",
       key: "34"
     },
     {
-      title: "Phoebe Jones",
-      venture: "RecoverMe",
+      title: "Suraj Tirupati",
+      linkedin: "",
+      venture: "",
       rating: 5,
       body: "None",
       key: "35"
     },
     {
-      title: "Sam Ducker",
-      venture: "Anyone",
+      title: "Tara Mahboub",
+      linkedin: "",
+      venture: "One Breath London",
       rating: 5,
       body: "None",
       key: "36"
     },
     {
-      title: "Suraj Tirupati",
+      title: "Tobia Charles",
+      linkedin: "",
       venture: "",
       rating: 5,
       body: "None",
       key: "37"
     },
     {
-      title: "Tara Mahboub",
-      venture: "One Breath London",
+      title: "Victoria Collins",
+      linkedin: "",
+      venture: "LingUpp",
       rating: 5,
       body: "None",
       key: "38"
     },
     {
-      title: "Tereza Pigova",
-      venture: "1001 Stories",
+      title: "Yasmine Manshadi",
+      linkedin: "",
+      venture: "Persian Supermarket",
       rating: 5,
       body: "None",
       key: "39"
     },
     {
-      title: "Tobia Charles",
-      venture: "",
-      rating: 5,
-      body: "None",
-      key: "40"
-    },
-    {
-      title: "Victoria Collins",
-      venture: "LingUpp",
-      rating: 5,
-      body: "None",
-      key: "41"
-    },
-    {
-      title: "Yasmine Manshadi",
-      venture: "Persian Supermarket",
-      rating: 5,
-      body: "None",
-      key: "42"
-    },
-    {
       title: "Zac Feighery",
+      linkedin: "",
       venture: "YouDrive",
       rating: 5,
       body: "None",
-      key: "43"
+      key: "40"
     }
+    // {
+    //   title: "Adil Dewan",
+    //   venture: "Nuts of Argania",
+    //   rating: 1,
+    //   body: "None",
+    //   key: "41"
+    // },
+    // {
+    //   title: "Sam Ducker",
+    //   venture: "Anyone",
+    //   rating: 5,
+    //   body: "None",
+    //   key: "42"
+    // },
+    // {
+    //   title: "Tereza Pigova",
+    //   venture: "1001 Stories",
+    //   rating: 5,
+    //   body: "None",
+    //   key: "43"
+    // }
   ]);
 
   const addReview = review => {
@@ -365,6 +405,7 @@ export default function Home({ navigation }) {
           >
             <Card style={styles.foundercards}>
               <Image style={styles.avatars} source={images.avatars[item.key]} />
+              {/* <Image style={styles.avatars} source={{ uri: item.qrcode }} /> */}
               <Text style={globalStyles.titleText}>{item.title}</Text>
               <Text style={globalStyles.titleText}></Text>
               <Text style={globalStyles.titleText}>{item.venture}</Text>
