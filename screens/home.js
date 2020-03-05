@@ -33,8 +33,9 @@ export default function Home({ navigation }) {
     },
     {
       title: "Alex McKeeman",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/alexander-mckeeman-b0435588/",
       venture: "Filt",
+      website: "",
       rating: 1,
       body: "None",
       key: "2"
