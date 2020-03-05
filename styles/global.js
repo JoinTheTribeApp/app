@@ -116,15 +116,15 @@ export const images = {
     "19":
       "https://quickchart.io/qr?text=https://bit.ly/2TqjkJU&ecLevel=H&size=330",
     "20":
-      "https://quickchart.io/qr?text=https://bit.ly/2TqjkJU&ecLevel=H&size=330",
+      "https://quickchart.io/qr?text=https://bit.ly/2Todx7u&ecLevel=H&size=330",
     "21":
-      "https://quickchart.io/qr?text=https://bit.ly/2TqjkJU&ecLevel=H&size=330",
+      "https://quickchart.io/qr?text=https://bit.ly/3ar5w7u&ecLevel=H&size=330",
     "22":
-      "https://quickchart.io/qr?text=https://bit.ly/2TqjkJU&ecLevel=H&size=330",
+      "https://quickchart.io/qr?text=https://bit.ly/38mHlFN&ecLevel=H&size=330",
     "23":
-      "https://quickchart.io/qr?text=https://bit.ly/2TqjkJU&ecLevel=H&size=330",
+      "https://quickchart.io/qr?text=https://bit.ly/3awjKEf&ecLevel=H&size=330",
     "24":
-      "https://quickchart.io/qr?text=https://bit.ly/2TqjkJU&ecLevel=H&size=330",
+      "https://quickchart.io/qr?text=https://bit.ly/2PLe8Oi&ecLevel=H&size=330",
     "25":
       "https://quickchart.io/qr?text=https://bit.ly/2IgpGoC&ecLevel=H&size=330",
     "26":
@@ -132,29 +132,29 @@ export const images = {
     "27":
       "https://quickchart.io/qr?text=https://bit.ly/3cvmdjP&ecLevel=H&size=330",
     "28":
-      "https://quickchart.io/qr?text=https://bit.ly/3cvmdjP&ecLevel=H&size=330",
+      "https://quickchart.io/qr?text=https://bit.ly/2IkOWdC&ecLevel=H&size=330",
     "29":
-      "https://quickchart.io/qr?text=https://bit.ly/3cvmdjP&ecLevel=H&size=330",
+      "https://quickchart.io/qr?text=https://bit.ly/39mVaW0&ecLevel=H&size=330",
     "30":
-      "https://quickchart.io/qr?text=https://bit.ly/3cvmdjP&ecLevel=H&size=330",
+      "https://quickchart.io/qr?text=https://bit.ly/38plU79&ecLevel=H&size=330",
     "31":
       "https://quickchart.io/qr?text=https://bit.ly/2vHkDuC&ecLevel=H&size=330",
     "32":
       "https://quickchart.io/qr?text=https://bit.ly/38jqRhz&ecLevel=H&size=330",
     "33":
-      "https://quickchart.io/qr?text=https://bit.ly/38jqRhz&ecLevel=H&size=330",
+      "https://quickchart.io/qr?text=https://bit.ly/38jqROB&ecLevel=H&size=330",
     "34":
-      "https://quickchart.io/qr?text=https://bit.ly/38jqRhz&ecLevel=H&size=330",
+      "https://quickchart.io/qr?text=https://bit.ly/2vCBj6w&ecLevel=H&size=330",
     "35":
-      "https://quickchart.io/qr?text=https://bit.ly/38jqRhz&ecLevel=H&size=330",
+      "https://quickchart.io/qr?text=https://bit.ly/2Touqz6&ecLevel=H&size=330",
     "36":
-      "https://quickchart.io/qr?text=https://bit.ly/38jqRhz&ecLevel=H&size=330",
+      "https://quickchart.io/qr?text=https://bit.ly/3aotyji&ecLevel=H&size=330",
     "37":
       "https://quickchart.io/qr?text=https://bit.ly/3cvmd3j&ecLevel=H&size=330",
     "38":
       "https://quickchart.io/qr?text=https://bit.ly/2VKovFP&ecLevel=H&size=330",
     "39":
-      "https://quickchart.io/qr?text=https://bit.ly/2VKovFP&ecLevel=H&size=330",
+      "https://quickchart.io/qr?text=https://bit.ly/2vHkE1E&ecLevel=H&size=330",
     "40":
       "https://quickchart.io/qr?text=https://bit.ly/38hz06k&ecLevel=H&size=330"
   },

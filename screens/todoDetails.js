@@ -27,7 +27,11 @@ export default function TodoDetails({ navigation }) {
         <Text style={styles.profileText}>{navigation.getParam("title")}</Text>
 
         <TouchableOpacity
-          onPress={() => Linking.openURL(linkedin)}
+          onPress={() =>
+            Linking.openURL(
+              linkedin || "http://linkedin.com/company/foundertribe/"
+            )
+          }
           style={
             (styles.profileText,
             {
@@ -51,7 +55,7 @@ export default function TodoDetails({ navigation }) {
         <Text style={styles.profileText}>{navigation.getParam("venture")}</Text>
 
         <TouchableOpacity
-          onPress={() => Linking.openURL(website)}
+          onPress={() => Linking.openURL(website || "https://foundertribe.org")}
           style={
             (styles.profileText,
             {
