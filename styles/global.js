@@ -74,7 +74,10 @@ export const images = {
     "40": require("../assets/founders/40.jpg"),
     "41": require("../assets/founders/41.jpg"),
     "42": require("../assets/founders/42.jpg"),
-    "43": require("../assets/founders/43.jpg")
+    "43": require("../assets/founders/43.jpg"),
+    "44": require("../assets/founders/44.jpg"),
+    "45": require("../assets/founders/45.jpg"),
+    "46": require("../assets/founders/46.jpg")
   },
   qrcodes: {
     "1":
@@ -156,7 +159,13 @@ export const images = {
     "39":
       "https://quickchart.io/qr?text=https://bit.ly/2vHkE1E&ecLevel=H&size=330",
     "40":
-      "https://quickchart.io/qr?text=https://bit.ly/38hz06k&ecLevel=H&size=330"
+      "https://quickchart.io/qr?text=https://bit.ly/38hz06k&ecLevel=H&size=330",
+    "44":
+      "https://quickchart.io/qr?text=https://bit.ly/38obhS5&ecLevel=H&size=330",
+    "45":
+      "https://quickchart.io/qr?text=https://bit.ly/2PORbK0&ecLevel=H&size=330",
+    "46":
+      "https://quickchart.io/qr?text=https://bit.ly/32YoYWO&ecLevel=H&size=330"
   },
   avatarsTeachers: {
     "1": require("../assets/teachers/1.png"),

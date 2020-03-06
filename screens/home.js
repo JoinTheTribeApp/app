@@ -95,6 +95,15 @@ export default function Home({ navigation }) {
       key: "8"
     },
     {
+      title: "Cyrille Najjar",
+      linkedin: "https://www.linkedin.com/in/cyrillenajjar/",
+      venture: "Sensio Air",
+      website: "https://www.wlab.io/",
+      rating: 5,
+      body: "None",
+      key: "46"
+    },
+    {
       title: "Fleur Colvile",
       linkedin: "https://www.linkedin.com/in/fleur-colvile-099720a6/",
       venture: "Mix & Rise",
@@ -329,6 +338,15 @@ export default function Home({ navigation }) {
       key: "34"
     },
     {
+      title: "Sabina Samek",
+      linkedin: "https://www.linkedin.com/in/sabinasamek/",
+      venture: "Centre for Entrepreneurs",
+      website: "https://centreforentrepreneurs.org/",
+      rating: 5,
+      body: "None",
+      key: "45"
+    },
+    {
       title: "Suraj Tirupati",
       linkedin: "https://www.linkedin.com/in/suraj-tirupati-4a9630155/",
       venture: "",
@@ -354,6 +372,15 @@ export default function Home({ navigation }) {
       rating: 5,
       body: "None",
       key: "37"
+    },
+    {
+      title: "Veronique Rapetti",
+      linkedin: "https://www.linkedin.com/in/veroniquerapetti/",
+      venture: "Centre for Entrepreneurs",
+      website: "https://centreforentrepreneurs.org/",
+      rating: 5,
+      body: "None",
+      key: "44"
     },
     {
       title: "Victoria Collins",
