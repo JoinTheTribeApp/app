@@ -5,7 +5,8 @@ import {
   Text,
   Image,
   Linking,
-  TouchableOpacity
+  TouchableOpacity,
+  ScrollView
 } from "react-native";
 import { globalStyles, images } from "../styles/global";
 import Card from "../shared/card";
@@ -20,62 +21,72 @@ export default function TodoDetails({ navigation }) {
   const linkedin = navigation.getParam("linkedin");
   return (
     <View style={globalStyles.container}>
-      <Card>
-        <Image style={styles.qrcode} source={{ uri: images.qrcodes[key] }} />
-        <Image style={styles.avatars} source={images.avatars[key]} />
-        <Text style={styles.profileHeader}>Name:</Text>
-        <Text style={styles.profileText}>{navigation.getParam("title")}</Text>
+      <ScrollView>
+        <Card>
+          <View style={styles.qrcodeparent}>
+            <Image
+              style={styles.qrcode}
+              source={{ uri: images.qrcodes[key] }}
+            />
+          </View>
+          <Image style={styles.avatars} source={images.avatars[key]} />
+          <Text style={styles.profileHeader}>Name:</Text>
+          <Text style={styles.profileText}>{navigation.getParam("title")}</Text>
 
-        <TouchableOpacity
-          onPress={() =>
-            Linking.openURL(
-              linkedin || "http://linkedin.com/company/foundertribe/"
-            )
-          }
-          style={
-            (styles.profileText,
-            {
-              fontSize: 16,
-              fontWeight: "bold",
-              marginLeft: 5
-            })
-          }
-        >
-          <Text
-            style={(styles.profileText, { color: "#4875B4", fontSize: 16 })} // linkedin blue
+          <TouchableOpacity
+            onPress={() =>
+              Linking.openURL(
+                linkedin || "http://linkedin.com/company/foundertribe/"
+              )
+            }
+            style={
+              (styles.profileText,
+              {
+                fontSize: 16,
+                fontWeight: "bold",
+                marginLeft: 5
+              })
+            }
           >
-            <Ionicons name="logo-linkedin" size={16} color="#4875B4" />
-            {/* linkedin blue */}
-            {/* &nbsp;{linkedin} */}
-            &nbsp;LinkedIn Profile
+            <Text
+              style={(styles.profileText, { color: "#4875B4", fontSize: 16 })} // linkedin blue
+            >
+              <Ionicons name="logo-linkedin" size={16} color="#4875B4" />
+              {/* linkedin blue */}
+              {/* &nbsp;{linkedin} */}
+              &nbsp;LinkedIn Profile
+            </Text>
+          </TouchableOpacity>
+
+          <Text style={styles.profileHeader}>Venture:</Text>
+          <Text style={styles.profileText}>
+            {navigation.getParam("venture")}
           </Text>
-        </TouchableOpacity>
 
-        <Text style={styles.profileHeader}>Venture:</Text>
-        <Text style={styles.profileText}>{navigation.getParam("venture")}</Text>
-
-        <TouchableOpacity
-          onPress={() => Linking.openURL(website || "https://foundertribe.org")}
-          style={
-            (styles.profileText,
-            {
-              color: "#f5633b", // Founder Tribe Orange
-              fontSize: 16,
-              fontWeight: "bold",
-              marginLeft: 5
-            })
-          }
-        >
-          <Text
-            style={(styles.profileText, { color: "#f5633b", fontSize: 16 })}
+          <TouchableOpacity
+            onPress={() =>
+              Linking.openURL(website || "https://foundertribe.org")
+            }
+            style={
+              (styles.profileText,
+              {
+                color: "#f5633b", // Founder Tribe Orange
+                fontSize: 16,
+                fontWeight: "bold",
+                marginLeft: 5
+              })
+            }
           >
-            <Ionicons name="md-link" size={16} color="#f5633b" />
-            {/* Founder Tribe Orange */}
-            &nbsp;{website}
-          </Text>
-        </TouchableOpacity>
+            <Text
+              style={(styles.profileText, { color: "#f5633b", fontSize: 16 })}
+            >
+              <Ionicons name="md-link" size={16} color="#f5633b" />
+              {/* Founder Tribe Orange */}
+              &nbsp;{website}
+            </Text>
+          </TouchableOpacity>
 
-        {/* <View style={styles.profileText} style={StyleSheet.rating}>
+          {/* <View style={styles.profileText} style={StyleSheet.rating}>
           <Text style={styles.profileHeader}>Membership:</Text>
           <Text style={styles.profileText}>
             Premium Member&nbsp;
@@ -84,22 +95,29 @@ export default function TodoDetails({ navigation }) {
           <Text style={styles.profileHeader}>Notes:</Text>
           <Text style={styles.profileText}>{navigation.getParam("body")}</Text>
         </View> */}
-      </Card>
+        </Card>
+      </ScrollView>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   qrcode: {
-    width: 330,
-    height: 330
+    width: 300,
+    height: 300,
+    justifyContent: "center",
+    alignItems: "center"
+  },
+  qrcodeparent: {
+    justifyContent: "center",
+    alignItems: "center"
   },
   avatars: {
     width: 100,
     height: 100,
     position: "absolute",
-    right: 30,
-    top: 330
+    right: 25,
+    top: 310
   },
   profileHeader: {
     fontSize: 16,
