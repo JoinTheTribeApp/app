@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@react-native-community/masked-view": "0.1.5",
+    "@react-navigation/web": "^1.0.0-alpha.9",
     "appcenter": "3.0.0",
     "appcenter-analytics": "3.0.0",
     "appcenter-crashes": "3.0.0",
@@ -22,14 +23,14 @@
     "react-native-safe-area-context": "0.6.0",
     "react-native-screens": "2.0.0-alpha.12",
     "react-native-web": "~0.11.7",
-    "react-navigation": "^4.1.1",
-    "react-navigation-drawer": "^2.3.4",
-    "react-navigation-stack": "^2.1.1",
-    "yup": "^0.28.1"
+    "react-navigation": "^4.3.7",
+    "react-navigation-drawer": "^2.4.11",
+    "react-navigation-stack": "^2.3.11",
+    "yup": "^0.28.3"
   },
   "devDependencies": {
-    "babel-preset-expo": "~8.0.0",
-    "@babel/core": "^7.0.0"
+    "@babel/core": "^7.9.0",
+    "babel-preset-expo": "~8.0.0"
   },
   "private": true
 }

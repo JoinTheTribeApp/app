@@ -9,7 +9,7 @@ import {
   TouchableOpacity,
   Modal,
   TouchableWithoutFeedback,
-  Keyboard
+  Keyboard,
 } from "react-native";
 import { globalStyles, images } from "../styles/global";
 import Card from "../shared/card";
@@ -29,7 +29,7 @@ export default function Home({ navigation }) {
       website: "https://www.blacwxlf.com/",
       rating: 1,
       body: "None",
-      key: "1"
+      key: "1",
     },
     {
       title: "Alex McKeeman",
@@ -38,7 +38,7 @@ export default function Home({ navigation }) {
       website: "",
       rating: 1,
       body: "None",
-      key: "2"
+      key: "2",
     },
     {
       title: "Alicia Norton",
@@ -47,7 +47,7 @@ export default function Home({ navigation }) {
       website: "http://www.treaclehealth.com/",
       rating: 4,
       body: "None",
-      key: "3"
+      key: "3",
     },
     {
       title: "Ariel Kendall",
@@ -56,7 +56,7 @@ export default function Home({ navigation }) {
       website: "",
       rating: 4,
       body: "None",
-      key: "4"
+      key: "4",
     },
     {
       title: "Ash Staines",
@@ -65,7 +65,7 @@ export default function Home({ navigation }) {
       website: "https://www.double-tapp.co.uk/",
       rating: 4,
       body: "None",
-      key: "5"
+      key: "5",
     },
     {
       title: "Ben Curtis",
@@ -74,7 +74,7 @@ export default function Home({ navigation }) {
       website: "",
       rating: 4,
       body: "None",
-      key: "6"
+      key: "6",
     },
     {
       title: "Claud Williams",
@@ -83,25 +83,16 @@ export default function Home({ navigation }) {
       website: "https://dreamnation.co/",
       rating: 4,
       body: "None",
-      key: "7"
+      key: "7",
     },
     {
       title: "Claudine Adeyemi",
       linkedin: "https://www.linkedin.com/in/claudineadeyemi/",
-      venture: "Career Ear",
+      venture: "CareerEar",
       website: "https://www.careerear.co.uk/",
       rating: 4,
       body: "None",
-      key: "8"
-    },
-    {
-      title: "Cyrille Najjar",
-      linkedin: "https://www.linkedin.com/in/cyrillenajjar/",
-      venture: "Sensio Air",
-      website: "https://www.wlab.io/",
-      rating: 5,
-      body: "None",
-      key: "46"
+      key: "8",
     },
     {
       title: "Fleur Colvile",
@@ -110,7 +101,7 @@ export default function Home({ navigation }) {
       website: "https://www.mixandrise.com/",
       rating: 4,
       body: "None",
-      key: "9"
+      key: "9",
     },
     {
       title: "Guy Wilkinson",
@@ -119,7 +110,7 @@ export default function Home({ navigation }) {
       website: "",
       rating: 4,
       body: "None",
-      key: "10"
+      key: "10",
     },
     {
       title: "Hasan Sukkar",
@@ -128,16 +119,16 @@ export default function Home({ navigation }) {
       website: "",
       rating: 4,
       body: "None",
-      key: "11"
+      key: "11",
     },
     {
       title: "Hugo Besley",
       linkedin: "https://www.linkedin.com/in/hugobesley/",
-      venture: "Studio Systems",
-      website: "https://www.makerwing.com/studiosystems",
+      venture: "Ava",
+      website: "https://www.tryava.com/",
       rating: 4,
       body: "None",
-      key: "12"
+      key: "12",
     },
     {
       title: "Ina Bierylo",
@@ -146,7 +137,7 @@ export default function Home({ navigation }) {
       website: "",
       rating: 4,
       body: "None",
-      key: "13"
+      key: "13",
     },
     {
       title: "Ish Wijewardana",
@@ -155,7 +146,7 @@ export default function Home({ navigation }) {
       website: "https://www.strivy.co.uk/",
       rating: 4,
       body: "None",
-      key: "14"
+      key: "14",
     },
     {
       title: "James Nightingall",
@@ -164,7 +155,7 @@ export default function Home({ navigation }) {
       website: "https://www.homefinder.ai/",
       rating: 4,
       body: "None",
-      key: "15"
+      key: "15",
     },
     {
       title: "James Stirrat",
@@ -173,7 +164,7 @@ export default function Home({ navigation }) {
       website: "http://circle-os.com/",
       rating: 4,
       body: "None",
-      key: "16"
+      key: "16",
     },
     {
       title: "Jaron Soh",
@@ -182,7 +173,7 @@ export default function Home({ navigation }) {
       website: "https://www.traktion.ai/",
       rating: 4,
       body: "None",
-      key: "17"
+      key: "17",
     },
     {
       title: "Joel Gujral",
@@ -191,7 +182,7 @@ export default function Home({ navigation }) {
       website: "https://www.myndup.com/",
       rating: 4,
       body: "None",
-      key: "18"
+      key: "18",
     },
     {
       title: "Karen Meynard",
@@ -200,16 +191,16 @@ export default function Home({ navigation }) {
       website: "",
       rating: 4,
       body: "None",
-      key: "19"
+      key: "19",
     },
     {
-      title: "Kat Merkalenko",
+      title: "Kat Beveridge",
       linkedin: "https://www.linkedin.com/in/katerynam/",
       venture: "Gifter",
       website: "https://www.gifter.tech/",
       rating: 4,
       body: "None",
-      key: "20"
+      key: "20",
     },
     {
       title: "Kate Nightingale",
@@ -218,7 +209,7 @@ export default function Home({ navigation }) {
       website: "https://www.eatpips.com/",
       rating: 4,
       body: "None",
-      key: "21"
+      key: "21",
     },
     {
       title: "Kiran Kotecha",
@@ -227,7 +218,7 @@ export default function Home({ navigation }) {
       website: "https://www.instagram.com/lokalapp/",
       rating: 4,
       body: "None",
-      key: "22"
+      key: "22",
     },
     {
       title: "Lucia Banjo",
@@ -236,7 +227,7 @@ export default function Home({ navigation }) {
       website: "https://www.embracekeratin.com/",
       rating: 4,
       body: "None",
-      key: "23"
+      key: "23",
     },
     {
       title: "Luke Billings",
@@ -245,7 +236,7 @@ export default function Home({ navigation }) {
       website: "",
       rating: 4,
       body: "None",
-      key: "24"
+      key: "24",
     },
     {
       title: "Matthew Holding",
@@ -254,7 +245,7 @@ export default function Home({ navigation }) {
       website: "",
       rating: 4,
       body: "None",
-      key: "25"
+      key: "25",
     },
     {
       title: "Max Hampshire",
@@ -263,7 +254,7 @@ export default function Home({ navigation }) {
       website: "",
       rating: 4,
       body: "None",
-      key: "26"
+      key: "26",
     },
     {
       title: "Maxxwell Firth",
@@ -272,7 +263,7 @@ export default function Home({ navigation }) {
       website: "https://foundertribe.org/",
       rating: 5,
       body: "None",
-      key: "27"
+      key: "27",
     },
     {
       title: "Melissa Yacoub",
@@ -281,7 +272,7 @@ export default function Home({ navigation }) {
       website: "https://discoverconsultancy.com/",
       rating: 5,
       body: "None",
-      key: "28"
+      key: "28",
     },
     {
       title: "Natasha Eeles",
@@ -290,16 +281,16 @@ export default function Home({ navigation }) {
       website: "https://www.boldvoices.co.uk/",
       rating: 5,
       body: "None",
-      key: "29"
+      key: "29",
     },
     {
       title: "Nathalie Stark",
       linkedin: "https://www.linkedin.com/in/nathalie-stark-90aa03107/",
-      venture: "",
+      venture: "EM Music Platform",
       website: "",
       rating: 5,
       body: "None",
-      key: "30"
+      key: "30",
     },
     {
       title: "Nish Modasia",
@@ -308,16 +299,16 @@ export default function Home({ navigation }) {
       website: "https://www.enrootldn.co.uk/",
       rating: 5,
       body: "None",
-      key: "31"
+      key: "31",
     },
     {
       title: "Patrick Dobinson",
       linkedin: "https://www.linkedin.com/in/patrick-dobinson-382491103/",
-      venture: "Botrade",
+      venture: "Bobtrade",
       website: "https://bobtrade.com/",
       rating: 5,
       body: "None",
-      key: "32"
+      key: "32",
     },
     {
       title: "Pavel Kroupa",
@@ -326,7 +317,7 @@ export default function Home({ navigation }) {
       website: "",
       rating: 5,
       body: "None",
-      key: "33"
+      key: "33",
     },
     {
       title: "Phoebe Jones",
@@ -335,16 +326,7 @@ export default function Home({ navigation }) {
       website: "",
       rating: 5,
       body: "None",
-      key: "34"
-    },
-    {
-      title: "Sabina Samek",
-      linkedin: "https://www.linkedin.com/in/sabinasamek/",
-      venture: "Centre for Entrepreneurs",
-      website: "https://centreforentrepreneurs.org/",
-      rating: 5,
-      body: "None",
-      key: "45"
+      key: "34",
     },
     {
       title: "Suraj Tirupati",
@@ -353,7 +335,7 @@ export default function Home({ navigation }) {
       website: "",
       rating: 5,
       body: "None",
-      key: "35"
+      key: "35",
     },
     {
       title: "Tara Mahboub",
@@ -362,25 +344,16 @@ export default function Home({ navigation }) {
       website: "https://www.onebreathlondon.co.uk/",
       rating: 5,
       body: "None",
-      key: "36"
+      key: "36",
     },
     {
       title: "Tobia Charles",
       linkedin: "https://www.linkedin.com/in/tobia-charles-623178112/",
-      venture: "",
+      venture: "Ethiopian Kickstarter",
       website: "",
       rating: 5,
       body: "None",
-      key: "37"
-    },
-    {
-      title: "Veronique Rapetti",
-      linkedin: "https://www.linkedin.com/in/veroniquerapetti/",
-      venture: "Centre for Entrepreneurs",
-      website: "https://centreforentrepreneurs.org/",
-      rating: 5,
-      body: "None",
-      key: "44"
+      key: "37",
     },
     {
       title: "Victoria Collins",
@@ -390,16 +363,16 @@ export default function Home({ navigation }) {
       website: "https://www.lingupp.com/",
       rating: 5,
       body: "None",
-      key: "38"
+      key: "38",
     },
     {
       title: "Yasmine Manshadi",
       linkedin: "https://www.linkedin.com/in/yasminemanshadi/",
-      venture: "Persian Supermarket",
-      website: "https://persiansupermarket.tk/",
+      venture: "Laundry Concierge",
+      website: "https://laundryconciergeuk.wixsite.com/website-2/menus",
       rating: 5,
       body: "None",
-      key: "39"
+      key: "39",
     },
     {
       title: "Zac Feighery",
@@ -408,8 +381,8 @@ export default function Home({ navigation }) {
       website: "",
       rating: 5,
       body: "None",
-      key: "40"
-    }
+      key: "40",
+    },
     // {
     //   title: "Adil Dewan",
     //   venture: "Nuts of Argania",
@@ -430,12 +403,39 @@ export default function Home({ navigation }) {
     //   rating: 5,
     //   body: "None",
     //   key: "43"
-    // }
+    // },
+    // {
+    //   title: "Veronique Rapetti",
+    //   linkedin: "https://www.linkedin.com/in/veroniquerapetti/",
+    //   venture: "Centre for Entrepreneurs",
+    //   website: "https://centreforentrepreneurs.org/",
+    //   rating: 5,
+    //   body: "None",
+    //   key: "44",
+    // },
+    // {
+    //   title: "Sabina Samek",
+    //   linkedin: "https://www.linkedin.com/in/sabinasamek/",
+    //   venture: "Centre for Entrepreneurs",
+    //   website: "https://centreforentrepreneurs.org/",
+    //   rating: 5,
+    //   body: "None",
+    //   key: "45",
+    // },
+    // {
+    //   title: "Cyrille Najjar",
+    //   linkedin: "https://www.linkedin.com/in/cyrillenajjar/",
+    //   venture: "Sensio Air",
+    //   website: "https://www.wlab.io/",
+    //   rating: 5,
+    //   body: "None",
+    //   key: "46",
+    // },
   ]);
 
-  const addReview = review => {
+  const addReview = (review) => {
     review.key = Math.random().toString();
-    setReviews(currentReviews => {
+    setReviews((currentReviews) => {
       return [review, ...currentReviews];
     });
     setModalOpen(false);
@@ -491,22 +491,22 @@ const styles = StyleSheet.create({
     borderColor: "#f2f2f2",
     padding: 10,
     borderRadius: 10,
-    alignSelf: "center"
+    alignSelf: "center",
   },
   modalClose: {
     marginTop: 20,
-    marginBottom: 0
+    marginBottom: 0,
   },
   modalContent: {
-    flex: 1
+    flex: 1,
   },
   avatars: {
     height: 75,
     width: 75,
     right: 0,
-    position: "absolute"
+    position: "absolute",
   },
   foundercards: {
-    height: 200
-  }
+    height: 200,
+  },
 });
